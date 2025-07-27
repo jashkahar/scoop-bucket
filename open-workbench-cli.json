@@ -14,7 +14,10 @@
         }
     },
     "installer": {
-        "script": "Rename-Item \"$dir\\open-workbench-cli-windows-$($architecture).exe\" \"$dir\\open-workbench-cli.exe\""
+        "script": [
+            "$arch_suffix = if ($architecture -eq '64bit') { 'amd64' } else { 'arm64' }",
+            "Rename-Item \"$dir\\open-workbench-cli-windows-$arch_suffix.exe\" \"$dir\\open-workbench-cli.exe\""
+        ]
     },
     "bin": "open-workbench-cli.exe",
     "checkver": "github",
