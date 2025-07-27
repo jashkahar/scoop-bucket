@@ -1,0 +1,31 @@
+{
+    "version": "0.2.0",
+    "description": "A powerful CLI for scaffolding modern web applications.",
+    "homepage": "https://github.com/jashkahar/open-workbench-cli",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/jashkahar/open-workbench-cli/releases/download/v0.2.0/open-workbench-cli-windows-amd64.exe",
+            "hash": "f36c1225be3590ca651601bfc9a893c394e5eceaa42ded65cd37efa10631735d"
+        },
+        "arm64": {
+            "url": "https://github.com/jashkahar/open-workbench-cli/releases/download/v0.2.0/open-workbench-cli-windows-arm64.exe",
+            "hash": "5c172415db23c999941c5c0aec5b80867a63b962fbc6dd6130c246a8025e256e"
+        }
+    },
+    "installer": {
+        "script": "Rename-Item \"$dir\\open-workbench-cli-windows-$($architecture).exe\" \"$dir\\open-workbench-cli.exe\""
+    },
+    "bin": "open-workbench-cli.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/jashkahar/open-workbench-cli/releases/download/v$version/open-workbench-cli-windows-amd64.exe"
+            },
+            "arm64": {
+                "url": "https://github.com/jashkahar/open-workbench-cli/releases/download/v$version/open-workbench-cli-windows-arm64.exe"
+            }
+        }
+    }
+}
