@@ -1,19 +1,19 @@
 {
-    "version": "0.4.0",
+    "version": "0.5.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/jashkahar/open-workbench-cli/releases/download/v0.4.0/open-workbench-cli_0.4.0_windows_amd64.tar.gz",
+            "url": "https://github.com/jashkahar/open-workbench-cli/releases/download/v0.5.0/open-workbench-cli_0.5.0_windows_amd64.tar.gz",
             "bin": [
                 "open-workbench-cli.exe"
             ],
-            "hash": "8ffe1da2687d9883b9293b5cd24bc208e8c6d0062233d5d38662e23bb757f163"
+            "hash": "c16a51fa5d4f51b602db071678cab35a02330d5320ea7b4768047f7b6fd5a473"
         },
         "arm64": {
-            "url": "https://github.com/jashkahar/open-workbench-cli/releases/download/v0.4.0/open-workbench-cli_0.4.0_windows_arm64.tar.gz",
+            "url": "https://github.com/jashkahar/open-workbench-cli/releases/download/v0.5.0/open-workbench-cli_0.5.0_windows_arm64.tar.gz",
             "bin": [
                 "open-workbench-cli.exe"
             ],
-            "hash": "7b2307743e7edbd363b15e3b566f0155e8077672cf907ed1e5f360ac76bde966"
+            "hash": "4b9b4dd562ec24bd6d5f10c84f4d8067350ecb930a172ad53711b7b64cbcdf39"
         }
     },
     "homepage": "https://github.com/jashkahar/open-workbench-cli",
