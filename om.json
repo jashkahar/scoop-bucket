@@ -1,0 +1,22 @@
+{
+    "version": "0.5.2",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/jashkahar/open-workbench-platform/releases/download/v0.5.2/om_0.5.2_windows_amd64.tar.gz",
+            "bin": [
+                "om.exe"
+            ],
+            "hash": "66b32f4f8de3724831e6786a43767858023372a6912ac379368043d9e051bc38"
+        },
+        "arm64": {
+            "url": "https://github.com/jashkahar/open-workbench-platform/releases/download/v0.5.2/om_0.5.2_windows_arm64.tar.gz",
+            "bin": [
+                "om.exe"
+            ],
+            "hash": "45f469f98db432329f1bcddd77b742ba6f5054f5408cdaee12aa3150010950b0"
+        }
+    },
+    "homepage": "https://github.com/jashkahar/open-workbench-platform",
+    "license": "MIT",
+    "description": "A powerful CLI for scaffolding modern web applications."
+}
