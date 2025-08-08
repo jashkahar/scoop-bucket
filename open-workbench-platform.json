@@ -1,19 +1,19 @@
 {
-    "version": "0.5.1",
+    "version": "0.6.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/jashkahar/open-workbench-platform/releases/download/v0.5.1/open-workbench-platform_0.5.1_windows_amd64.tar.gz",
+            "url": "https://github.com/jashkahar/open-workbench-platform/releases/download/v0.6.0/om_0.6.0_windows_amd64.tar.gz",
             "bin": [
-                "open-workbench-platform.exe"
+                "om.exe"
             ],
-            "hash": "226d8bc9befa4ed2f80304359e1f2e29e5b5399d5c268e28aeab5f24a8ae9d05"
+            "hash": "2ef43bb115dfedc2b2060adfdd0c26ee482027741dcbdc682ed33d1c0e90cd43"
         },
         "arm64": {
-            "url": "https://github.com/jashkahar/open-workbench-platform/releases/download/v0.5.1/open-workbench-platform_0.5.1_windows_arm64.tar.gz",
+            "url": "https://github.com/jashkahar/open-workbench-platform/releases/download/v0.6.0/om_0.6.0_windows_arm64.tar.gz",
             "bin": [
-                "open-workbench-platform.exe"
+                "om.exe"
             ],
-            "hash": "1a3f014425215b76b99d247511e3f3b52cce70ae1e5531b787b81b22106727a1"
+            "hash": "ea0795fd8cd2fa308aaaf770be58edfa88136a6995b442e125e15839f9dc839a"
         }
     },
     "homepage": "https://github.com/jashkahar/open-workbench-platform",
