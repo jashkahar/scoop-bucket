@@ -1,19 +1,19 @@
 {
-    "version": "0.6.0",
+    "version": "0.6.1",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/jashkahar/open-workbench-platform/releases/download/v0.6.0/om_0.6.0_windows_amd64.tar.gz",
+            "url": "https://github.com/jashkahar/open-workbench-platform/releases/download/v0.6.1/om_0.6.1_windows_amd64.tar.gz",
             "bin": [
                 "om.exe"
             ],
-            "hash": "2ef43bb115dfedc2b2060adfdd0c26ee482027741dcbdc682ed33d1c0e90cd43"
+            "hash": "133bd328cb6ed47fda6dd0b45ca484267fed2795fa412f11bc3e192854f0c422"
         },
         "arm64": {
-            "url": "https://github.com/jashkahar/open-workbench-platform/releases/download/v0.6.0/om_0.6.0_windows_arm64.tar.gz",
+            "url": "https://github.com/jashkahar/open-workbench-platform/releases/download/v0.6.1/om_0.6.1_windows_arm64.tar.gz",
             "bin": [
                 "om.exe"
             ],
-            "hash": "ea0795fd8cd2fa308aaaf770be58edfa88136a6995b442e125e15839f9dc839a"
+            "hash": "5bfadffba4da865f7a7c7d1024ece5803e80768f6b842af2c8f374f85175ec64"
         }
     },
     "homepage": "https://github.com/jashkahar/open-workbench-platform",
